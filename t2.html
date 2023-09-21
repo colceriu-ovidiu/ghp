@@ -9,13 +9,10 @@
 </head>
 <body>
     <h1>Web audio tutorial</h1>
-    <button id="button-start-session">Start Session</button>
+    <button id="button-start-session">Start Session1</button>
 
-    <script>
-        document.getElementById("button-start-session").focus();
-    
+    <script>   
         document.getElementById("button-start-session").addEventListener("click", (evt) => {
-        startConnection();
       
         let beat = new Audio('/question.mp3');
         beat.play();
